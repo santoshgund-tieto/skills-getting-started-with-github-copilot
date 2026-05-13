@@ -119,7 +119,7 @@ section h3 {
   overflow-wrap: anywhere;
 }
 
-.participant-delete-btn {
+button.participant-delete-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -133,22 +133,22 @@ section h3 {
   transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
 }
 
-.participant-delete-btn:hover {
+button.participant-delete-btn:hover {
   background-color: #ffe8e8;
   border-color: #e57373;
   transform: translateY(-1px);
 }
 
-.participant-delete-btn:active {
+button.participant-delete-btn:active {
   transform: translateY(0);
 }
 
-.participant-delete-btn:disabled {
+button.participant-delete-btn:disabled {
   cursor: not-allowed;
   opacity: 0.6;
 }
 
-.participant-delete-btn svg {
+button.participant-delete-btn svg {
   width: 15px;
   height: 15px;
   fill: currentcolor;
