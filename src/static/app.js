@@ -36,7 +36,11 @@ document.addEventListener( "DOMContentLoaded", () => {
                   title="Unregister participant"
                 >
                   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                    <path d="M9 3h6l1 2h4v2H4V5h4l1-2Zm-2 6h2v9H7V9Zm4 0h2v9h-2V9Zm4 0h2v9h-2V9Z"></path>
+                    <path d="M4 7h16"></path>
+                    <path d="M10 11v6"></path>
+                    <path d="M14 11v6"></path>
+                    <path d="M6 7l1 12h10l1-12"></path>
+                    <path d="M9 7V5h6v2"></path>
                   </svg>
                 </button>
               </li>`
